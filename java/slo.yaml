@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <11295.55
+    - <1450.71
   warning: []
   weight: 1
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <11295.55
+    - <24786.08
   warning: []
   weight: 1
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>2561.49'
+    - '>200.30'
   warning: []
   weight: 1
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <0.00
+    - <0.0009
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <39.45
+    - <39.42
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <13.93
+    - <13.26
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,15 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <1.33
+    - <1.22
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_avail_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - '>80.00'
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +82,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <8.48
+    - <8.57
   warning: []
   weight: 1
   key_sli: false
@@ -90,7 +98,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <172.92
+    - <119.57
   warning: []
   weight: 1
   key_sli: false
@@ -98,31 +106,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <953.92
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: j_thread_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <0.10
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: j_heap_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <44910292.12
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: j_gc_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <0.16
+    - <749.57
   warning: []
   weight: 1
   key_sli: false
