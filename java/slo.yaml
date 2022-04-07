@@ -10,31 +10,31 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1453.7072334999
+    - <=1491.448
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: rt_p90
   displayName: ""
   pass:
   - criteria:
-    - <=22176.1085896063
+    - <=26517.486
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: fr_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.1216963047
+    - <=0.149
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: rc_sum
   displayName: ""
   pass:
   - criteria:
-    - '>=199.5342575758'
+    - '>=192.695'
   warning: []
   weight: 1
   key_sli: false
@@ -42,47 +42,47 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.0010400000
+    - <=0.001
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: h_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=39.4252725220
+    - <=39.198
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: h_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=13.1119247437
+    - <=13.095
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: p_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=1.2019458229
+    - <=1.156
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: p_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=8.5682537587
+    - <=8.511
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: a_apdex
   displayName: ""
   pass:
   - criteria:
-    - '>=0.9262500000'
+    - '>=0.926'
   warning: []
   weight: 1
   key_sli: false
@@ -90,41 +90,41 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=141.0937500000
+    - <=118.388
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: a_load_avg
   displayName: ""
   pass:
   - criteria:
-    - <=750.5750000000
+    - <=745.412
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: j_thread_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.0982642720
+    - <=0.090
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: j_heap_avg
   displayName: ""
   pass:
   - criteria:
-    - <=44306105.9105376378
+    - <=43925527.819
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: j_gc_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.1454381042
+    - <=0.133
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 total_score:
   pass: 90%
