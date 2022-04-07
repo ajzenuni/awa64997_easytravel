@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1523.414
+    - <=1520.019
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=30185.396
+    - <=30524.350
   warning: []
   weight: 2
   key_sli: false
@@ -26,7 +26,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.138
+    - <=0.128
   warning: []
   weight: 2
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=187.174'
+    - '>=185.315'
   warning: []
   weight: 2
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.004
+    - <=0.003
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=39.164
+    - <=39.451
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.096
+    - <=13.175
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.156
+    - <=1.184
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +74,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.513
+    - <=8.597
   warning: []
   weight: 1
   key_sli: false
@@ -84,29 +84,29 @@ objectives:
   - criteria:
     - '>=0.926'
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: a_xhr_avg
   displayName: ""
   pass:
   - criteria:
-    - <=115.434
+    - <=113.925
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: a_load_avg
   displayName: ""
   pass:
   - criteria:
-    - <=771.050
+    - <=765.013
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: j_thread_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.092
+    - <=0.090
   warning: []
   weight: 1
   key_sli: false
@@ -114,7 +114,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=43374459.259
+    - <=42839864.303
   warning: []
   weight: 1
   key_sli: false
@@ -122,7 +122,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.149
+    - <=0.139
   warning: []
   weight: 1
   key_sli: false
