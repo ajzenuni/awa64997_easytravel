@@ -7,6 +7,7 @@ indicators:
   h_cpu_avg: entitySelector=type(HOST),mzId(-8896408064244866623)&metricSelector=builtin:host.cpu.usage:splitBy():avg:names
   h_disk_max: entitySelector=type(HOST),mzId(-8896408064244866623)&metricSelector=builtin:host.disk.queueLength:splitBy():max:names
   h_mem_avg: entitySelector=type(HOST),mzId(-8896408064244866623)&metricSelector=builtin:host.mem.usage:splitBy():avg:names
+  p_avail_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:pgi.availability:splitBy():avg:names
   p_cpu_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.generic.cpu.usage:splitBy():avg:names
   p_mem_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.generic.mem.usage:splitBy():avg:names
   rc_sum: entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.requestCount.total:splitBy():avg:names
