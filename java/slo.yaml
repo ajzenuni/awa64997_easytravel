@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1484.457
+    - <=1506.618
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=29598.307
+    - <=27824.361
   warning: []
   weight: 2
   key_sli: false
@@ -26,7 +26,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.178
+    - <=0.167
   warning: []
   weight: 2
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=172.876'
+    - '>=183.317'
   warning: []
   weight: 2
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.003
+    - <=0.002
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=37.176
+    - <=37.431
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.118
+    - <=13.211
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.156
+    - <=1.170
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +74,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.681
+    - <=8.597
   warning: []
   weight: 1
   key_sli: false
@@ -90,7 +90,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=118.650
+    - <=155.662
   warning: []
   weight: 1
   key_sli: false
@@ -98,7 +98,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=784.306
+    - <=726.512
   warning: []
   weight: 1
   key_sli: false
@@ -106,7 +106,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.095
+    - <=0.098
   warning: []
   weight: 1
   key_sli: false
@@ -114,7 +114,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=45579833.221
+    - <=45498181.792
   warning: []
   weight: 1
   key_sli: false
@@ -122,10 +122,10 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.127
+    - <=0.134
   warning: []
   weight: 1
   key_sli: false
 total_score:
-  pass: 90%
-  warning: 70%
+  pass: 95%
+  warning: 65%
