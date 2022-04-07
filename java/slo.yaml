@@ -10,73 +10,73 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1523.723
+    - <=1523.414
   warning: []
-  weight: 0
+  weight: 2
   key_sli: false
 - sli: rt_p90
   displayName: ""
   pass:
   - criteria:
-    - <=29306.494
+    - <=30185.396
   warning: []
-  weight: 0
+  weight: 2
   key_sli: false
 - sli: fr_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.139
+    - <=0.138
   warning: []
-  weight: 0
+  weight: 2
   key_sli: false
 - sli: rc_sum
   displayName: ""
   pass:
   - criteria:
-    - '>=186.299'
+    - '>=187.174'
   warning: []
-  weight: 0
+  weight: 2
   key_sli: false
 - sli: h_disk_max
   displayName: ""
   pass:
   - criteria:
-    - <=0.002
+    - <=0.004
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: h_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=39.161
+    - <=39.164
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: h_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=13.268
+    - <=13.096
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: p_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=1.167
+    - <=1.156
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: p_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=8.512
+    - <=8.513
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: a_apdex
   displayName: ""
@@ -106,25 +106,25 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.094
+    - <=0.092
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: j_heap_avg
   displayName: ""
   pass:
   - criteria:
-    - <=44190503.687
+    - <=43374459.259
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 - sli: j_gc_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.146
+    - <=0.149
   warning: []
-  weight: 0
+  weight: 1
   key_sli: false
 total_score:
   pass: 90%
