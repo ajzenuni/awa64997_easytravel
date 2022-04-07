@@ -1,0 +1,139 @@
+spec_version: ""
+filter: {}
+comparison:
+  compare_with: single_result
+  include_result_with_score: pass
+  number_of_comparison_results: 1
+  aggregate_function: avg
+objectives:
+- sli: rt_p50
+  displayName: ""
+  pass:
+  - criteria:
+    - <11795.21
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: rt_p90
+  displayName: ""
+  pass:
+  - criteria:
+    - <11795.21
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: fr_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <0.12
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: rc_sum
+  displayName: ""
+  pass:
+  - criteria:
+    - '>2095.45'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: h_disk_max
+  displayName: ""
+  pass:
+  - criteria:
+    - <0.00
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: h_mem_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <36.59
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: h_cpu_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <13.36
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_cpu_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <1.26
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_avail_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - '>80.00'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_mem_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <7.88
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_apdex
+  displayName: ""
+  pass:
+  - criteria:
+    - '>0.88'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_xhr_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <175.83
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_load_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <2197.74
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_thread_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <0.09
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_heap_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <40800959.34
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_gc_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <0.15
+  warning: []
+  weight: 1
+  key_sli: false
+total_score:
+  pass: 90%
+  warning: 70%
