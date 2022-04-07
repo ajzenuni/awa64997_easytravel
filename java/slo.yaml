@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1491.448
+    - <=1517.327
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=26517.486
+    - <=28084.735
   warning: []
   weight: 2
   key_sli: false
@@ -34,49 +34,49 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=192.695'
+    - '>=191.355'
   warning: []
-  weight: 1
+  weight: 2
   key_sli: false
 - sli: h_disk_max
   displayName: ""
   pass:
   - criteria:
-    - <=0.001
+    - <=0.002
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: h_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=39.198
+    - <=39.466
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: h_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=13.095
+    - <=13.248
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: p_cpu_avg
   displayName: ""
   pass:
   - criteria:
-    - <=1.156
+    - <=1.184
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: p_mem_avg
   displayName: ""
   pass:
   - criteria:
-    - <=8.511
+    - <=8.595
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: a_apdex
   displayName: ""
@@ -90,41 +90,41 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=118.388
+    - <=115.369
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: a_load_avg
   displayName: ""
   pass:
   - criteria:
-    - <=745.412
+    - <=750.794
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: j_thread_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.090
+    - <=0.099
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: j_heap_avg
   displayName: ""
   pass:
   - criteria:
-    - <=43925527.819
+    - <=45870738.510
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 - sli: j_gc_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.133
+    - <=0.132
   warning: []
-  weight: 2
+  weight: 1
   key_sli: false
 total_score:
   pass: 90%
