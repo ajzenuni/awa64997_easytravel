@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1445.334
+    - <=1453.7072334999
   warning: []
   weight: 1
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=21554.340
+    - <=22176.1085896063
   warning: []
   weight: 1
   key_sli: false
@@ -26,7 +26,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.134
+    - <=0.1216963047
   warning: []
   weight: 1
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=196.708'
+    - '>=199.5342575758'
   warning: []
   weight: 1
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.001
+    - <=0.0010400000
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=39.146
+    - <=39.4252725220
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.097
+    - <=13.1119247437
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.203
+    - <=1.2019458229
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +74,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.565
+    - <=8.5682537587
   warning: []
   weight: 1
   key_sli: false
@@ -82,7 +82,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=0.926'
+    - '>=0.9262500000'
   warning: []
   weight: 1
   key_sli: false
@@ -90,7 +90,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=123.178
+    - <=141.0937500000
   warning: []
   weight: 1
   key_sli: false
@@ -98,7 +98,31 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=728.788
+    - <=750.5750000000
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_thread_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.0982642720
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_heap_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=44306105.9105376378
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_gc_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.1454381042
   warning: []
   weight: 1
   key_sli: false
