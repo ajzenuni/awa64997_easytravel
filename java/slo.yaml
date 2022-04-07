@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1517.327
+    - <=1512.306
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=28084.735
+    - <=29546.514
   warning: []
   weight: 2
   key_sli: false
@@ -26,7 +26,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.149
+    - <=0.156
   warning: []
   weight: 2
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=191.355'
+    - '>=186.282'
   warning: []
   weight: 2
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=39.466
+    - <=39.187
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.248
+    - <=13.216
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.184
+    - <=1.150
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +74,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.595
+    - <=8.512
   warning: []
   weight: 1
   key_sli: false
@@ -84,7 +84,7 @@ objectives:
   - criteria:
     - '>=0.926'
   warning: []
-  weight: 1
+  weight: 0
   key_sli: false
 - sli: a_xhr_avg
   displayName: ""
@@ -92,21 +92,21 @@ objectives:
   - criteria:
     - <=115.369
   warning: []
-  weight: 1
+  weight: 0
   key_sli: false
 - sli: a_load_avg
   displayName: ""
   pass:
   - criteria:
-    - <=750.794
+    - <=765.494
   warning: []
-  weight: 1
+  weight: 0
   key_sli: false
 - sli: j_thread_avg
   displayName: ""
   pass:
   - criteria:
-    - <=0.099
+    - <=0.097
   warning: []
   weight: 1
   key_sli: false
@@ -114,7 +114,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=45870738.510
+    - <=45635525.668
   warning: []
   weight: 1
   key_sli: false
@@ -122,7 +122,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.132
+    - <=0.130
   warning: []
   weight: 1
   key_sli: false
