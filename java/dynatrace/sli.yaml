@@ -8,10 +8,11 @@ indicators:
   h_disk_max: entitySelector=type(HOST),mzId(-8896408064244866623)&metricSelector=builtin:host.disk.queueLength:splitBy():max:names
   h_mem_avg: entitySelector=type(HOST),mzId(-8896408064244866623)&metricSelector=builtin:host.mem.usage:splitBy():avg:names
   j_gc_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.jvm.memory.gc.suspensionTime:splitBy():avg:names
-  j_heap_avg: MV2;Byte;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.jvm.memory.pool.used:splitBy():avg:names
+  j_heap_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.jvm.memory.pool.used:splitBy():avg:names
   j_thread_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.jvm.threads.avgActiveThreadCount:splitBy():avg:names
+  p_avail_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:pgi.availability:splitBy():avg:names
   p_cpu_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.generic.cpu.usage:splitBy():avg:names
   p_mem_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-8896408064244866623)&metricSelector=builtin:tech.generic.mem.usage:splitBy():avg:names
   rc_sum: entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.requestCount.total:splitBy():avg:names
-  rt_p50: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.response.time:splitBy():median:names
-  rt_p90: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.response.time:splitBy():percentile(90):names
+  rt_p50: entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.response.time:splitBy():median:names
+  rt_p90: entitySelector=type(SERVICE),mzId(-8896408064244866623)&metricSelector=builtin:service.response.time:splitBy():percentile(90):names
