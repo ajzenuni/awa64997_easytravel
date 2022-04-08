@@ -1,0 +1,139 @@
+spec_version: ""
+filter: {}
+comparison:
+  compare_with: single_result
+  include_result_with_score: pass
+  number_of_comparison_results: 1
+  aggregate_function: avg
+objectives:
+- sli: rt_p50
+  displayName: ""
+  pass:
+  - criteria:
+    - <=1661.419
+  warning: []
+  weight: 2
+  key_sli: false
+- sli: rt_p90
+  displayName: ""
+  pass:
+  - criteria:
+    - <=8702.057
+  warning: []
+  weight: 2
+  key_sli: false
+- sli: fr_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.020
+  warning: []
+  weight: 2
+  key_sli: false
+- sli: rc_sum
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=2362.393'
+  warning: []
+  weight: 2
+  key_sli: false
+- sli: h_disk_max
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.026
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: h_mem_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=39.046
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: h_cpu_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=13.236
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_cpu_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.485
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_avail_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=71.566'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_mem_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=1.809
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_apdex
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=0.926'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_xhr_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=125.158
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_load_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=751.616
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_thread_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.092
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_heap_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=44575100.041
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: j_gc_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - <=0.145
+  warning: []
+  weight: 1
+  key_sli: false
+total_score:
+  pass: 90%
+  warning: 70%
