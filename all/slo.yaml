@@ -6,14 +6,6 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
-- sli: rt_p50
-  displayName: ""
-  pass:
-  - criteria:
-    - <=1661.419
-  warning: []
-  weight: 2
-  key_sli: false
 - sli: rt_p90
   displayName: ""
   pass:
@@ -125,6 +117,14 @@ objectives:
     - <=0.145
   warning: []
   weight: 1
+  key_sli: false
+- sli: rt_p50
+  displayName: ""
+  pass:
+  - criteria:
+    - <=1661.419
+  warning: []
+  weight: 2
   key_sli: false
 total_score:
   pass: 90%
