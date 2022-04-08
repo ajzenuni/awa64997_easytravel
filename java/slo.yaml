@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1599.990
+    - <=1603.449
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=24655.851
+    - <=24739.436
   warning: []
   weight: 2
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=1892.715'
+    - '>=1885.187'
   warning: []
   weight: 2
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.027
+    - <=0.026
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=39.053
+    - <=39.050
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.227
+    - <=13.231
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,15 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.205
+    - <=1.207
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_avail_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=79.884'
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +82,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.584
+    - <=8.585
   warning: []
   weight: 1
   key_sli: false
@@ -90,7 +98,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=126.836
+    - <=125.222
   warning: []
   weight: 1
   key_sli: false
@@ -98,7 +106,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=762.310
+    - <=752.914
   warning: []
   weight: 1
   key_sli: false
@@ -106,7 +114,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.093
+    - <=0.092
   warning: []
   weight: 1
   key_sli: false
@@ -114,7 +122,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=44465774.254
+    - <=44564262.377
   warning: []
   weight: 1
   key_sli: false
