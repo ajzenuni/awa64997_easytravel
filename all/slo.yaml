@@ -6,11 +6,19 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
+- sli: rt_p50
+  displayName: ""
+  pass:
+  - criteria:
+    - <=1661.511
+  warning: []
+  weight: 2
+  key_sli: false
 - sli: rt_p90
   displayName: ""
   pass:
   - criteria:
-    - <=8702.057
+    - <=8687.007
   warning: []
   weight: 2
   key_sli: false
@@ -26,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=2362.393'
+    - '>=2364.933'
   warning: []
   weight: 2
   key_sli: false
@@ -42,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=39.046
+    - <=39.050
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.236
+    - <=13.231
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +66,15 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.485
+    - <=0.484
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: p_avail_avg
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=71.566'
   warning: []
   weight: 1
   key_sli: false
@@ -82,7 +98,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=125.158
+    - <=125.222
   warning: []
   weight: 1
   key_sli: false
@@ -90,41 +106,9 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=751.616
+    - <=752.914
   warning: []
   weight: 1
-  key_sli: false
-- sli: j_thread_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=0.092
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: j_heap_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=44575100.041
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: j_gc_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=0.145
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: rt_p50
-  displayName: ""
-  pass:
-  - criteria:
-    - <=1661.419
-  warning: []
-  weight: 2
   key_sli: false
 total_score:
   pass: 90%
