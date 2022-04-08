@@ -13,5 +13,5 @@ indicators:
   p_cpu_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.cpu.usage:splitBy():avg:names
   p_mem_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.mem.usage:splitBy():avg:names
   rc_sum: entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.requestCount.total:splitBy():avg:names
-  rt_p50: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.response.time:splitBy():median:names
+  rt_p50: MV2;MicroSecond;entitySelector=type(SERVICE),tag("test"),mzId(-3844441029051841282)&metricSelector=builtin:service.response.time:splitBy():median:names
   rt_p90: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.response.time:splitBy():percentile(90):names
