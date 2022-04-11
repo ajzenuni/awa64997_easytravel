@@ -13,11 +13,11 @@ easytravel:
 - mzName: all
 - total_pass: 90%
 - total_warn: 70%
-- rt_p50_base: '1593.063'
-- rt_p50_pass: '1672.716'
-- rt_p50_warn: '1704.578'
+- rt_p50_base: '1593.064'
+- rt_p50_pass: '1672.717'
+- rt_p50_warn: '1704.579'
 - rt_p50_weight: '2'
-- rt_p90_base: '8606.874'
+- rt_p90_base: '8606.873'
 - rt_p90_pass: '9037.217'
 - rt_p90_warn: '9209.355'
 - rt_p90_weight: '2'
