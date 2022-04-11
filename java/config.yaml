@@ -1,28 +1,27 @@
-dashboards:
-     -  mzName: "all"
-        technology: "generic"
-        total_pass: "90%"
-        total_warn: "70%"
-        dash:
-            timeFrame: "now-1d"
-            shared: "true"
-            preset: "true"
-            owner: "arijan.zenuni@dynatrace.com"
-            project: "easytravel"
-            stage: "prod"
-            service: "all"
-        baseline:
-            app_pass: 5
-            app_warn: 7
-            service_pass: 5
-            service_warn: 7
-            infra_pass: 20
-            infra_warn: 23
-        weight:
-            app: 1
-            service: 2
-            infra: 1
-        keySli:
-            app: "true"
-            service: "false"
-            infra: "true"
+-   mzName: "all"
+    technology: "generic"
+    total_pass: "90%"
+    total_warn: "70%"
+    dash:
+        timeFrame: "now-1d"
+        shared: "true"
+        preset: "true"
+        owner: "arijan.zenuni@dynatrace.com"
+        #project: "easytravel"
+        #stage: "prod"
+        #service: "all"
+    baseline:
+        app_pass: 5
+        app_warn: 7
+        service_pass: 5
+        service_warn: 7
+        infra_pass: 20
+        infra_warn: 23
+    weight:
+        app: 1
+        service: 2
+        infra: 1
+    keySli:
+        app: "true"
+        service: "false"
+        infra: "true"
