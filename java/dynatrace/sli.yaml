@@ -10,7 +10,6 @@ indicators:
   j_gc_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.jvm.memory.gc.suspensionTime:splitBy():avg:names
   j_heap_avg: MV2;Byte;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.jvm.memory.pool.used:splitBy():avg:names
   j_thread_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.jvm.threads.avgActiveThreadCount:splitBy():avg:names
-  p_avail_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:pgi.availability:splitBy():avg:names
   p_cpu_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.cpu.usage:splitBy():avg:names
   p_mem_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.mem.usage:splitBy():avg:names
   rc_sum: entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.requestCount.total:splitBy():avg:names
