@@ -629,9 +629,7 @@
         "honeycombSettings": {}
       },
       "queriesSettings": {
-        "resolution": "",
-        "foldTransformation": "TOTAL",
-        "foldAggregation": "AVG"
+        "resolution": ""
       }
     },
     {
@@ -2057,9 +2055,7 @@
         "honeycombSettings": {}
       },
       "queriesSettings": {
-        "resolution": "",
-        "foldTransformation": "TOTAL",
-        "foldAggregation": "AVG"
+        "resolution": ""
       }
     },
     {
