@@ -6,8 +6,6 @@ spec:
   stages:
     - name: "prod"
       sequences:
-      - name: "getslo"
+      - name: "evaluation"
         tasks: 
         - name: "evaluation"
-          properties:
-            timeframe: "5m"
