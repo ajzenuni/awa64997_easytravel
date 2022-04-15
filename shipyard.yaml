@@ -9,3 +9,8 @@ spec:
       - name: "evaluation"
         tasks: 
         - name: "evaluation"
+    - name: "stage"
+      sequences:
+      - name: "evaluation"
+        tasks: 
+        - name: "evaluation"
