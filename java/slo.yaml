@@ -10,7 +10,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1518.879
+    - <=1517.662
   warning: []
   weight: 2
   key_sli: false
@@ -18,7 +18,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=25493.031
+    - <=26434.647
   warning: []
   weight: 2
   key_sli: false
@@ -26,7 +26,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.026
+    - <=0.024
   warning: []
   weight: 2
   key_sli: false
@@ -34,7 +34,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - '>=1994.342'
+    - '>=2020.024'
   warning: []
   weight: 2
   key_sli: false
@@ -42,7 +42,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.475
+    - <=0.018
   warning: []
   weight: 1
   key_sli: false
@@ -50,7 +50,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=38.688
+    - <=40.282
   warning: []
   weight: 1
   key_sli: false
@@ -58,7 +58,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=13.713
+    - <=13.760
   warning: []
   weight: 1
   key_sli: false
@@ -66,7 +66,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=1.302
+    - <=1.339
   warning: []
   weight: 1
   key_sli: false
@@ -74,7 +74,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=8.039
+    - <=8.520
   warning: []
   weight: 1
   key_sli: false
@@ -90,7 +90,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=127.380
+    - <=134.400
   warning: []
   weight: 1
   key_sli: false
@@ -98,7 +98,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=785.744
+    - <=785.168
   warning: []
   weight: 1
   key_sli: false
@@ -106,7 +106,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.094
+    - <=0.097
   warning: []
   weight: 1
   key_sli: false
@@ -114,7 +114,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=42653102.186
+    - <=47867622.076
   warning: []
   weight: 1
   key_sli: false
@@ -122,7 +122,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <=0.182
+    - <=0.251
   warning: []
   weight: 1
   key_sli: false
