@@ -6,47 +6,15 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
+- sli: kua_apdex
+  displayName: ""
+  pass:
+  - criteria:
+    - '>=.5'
+  warning: []
+  weight: 1
+  key_sli: false
 - sli: a_apdex
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=.5'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: kua_apdex_loading_of_page__orange-booking-payment.jsf
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=.5'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: kua_apdex_loading_of_page__
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=.5'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: kua_apdex_loading_of_page__logout.jsf
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=.5'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: kua_apdex_loading_of_page__orange-booking-review.jsf
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=.5'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: kua_apdex_loading_of_page__orange-booking-finish.jsf
   displayName: ""
   pass:
   - criteria:
