@@ -5,7 +5,7 @@ indicators:
   a_error: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.countOfErrors:splitBy("dt.entity.application"):value:names
   a_load_dur: ""
   a_xhr_dur: ""
-  a1_error: ""
-  kua1_apdex: ""
-  kua1_count: ""
-  kua1_duration: ""
+  kua{num}_apdex: ""
+  kua{num}_count: ""
+  kua{num}_duration: ""
+  kua{num}_error: ""
