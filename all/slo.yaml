@@ -6,11 +6,75 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
-- sli: error_count_avg
+- sli: a_error
   displayName: ""
   pass:
   - criteria:
-    - <=200
+    - pass={cond}
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_apdex
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_load_dur
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_xhr_dur
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_count
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a1_error
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: kua1_apdex
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: kua1_duration
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: kua1_count
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
   warning: []
   weight: 1
   key_sli: false
