@@ -1,11 +1,4 @@
 spec_version: 0.1.4
 indicators:
   a_apdex: ""
-  a_count: ""
-  a_error: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.countOfErrors:splitBy("dt.entity.application"):value:names
-  a_load_dur: ""
-  a_xhr_dur: ""
-  kua{num}_apdex: ""
-  kua{num}_count: ""
-  kua{num}_duration: ""
-  kua{num}_error: ""
+  kua_apdex: ""
