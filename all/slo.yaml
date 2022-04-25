@@ -22,14 +22,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: a_load_dur
-  displayName: ""
-  pass:
-  - criteria:
-    - '{cond}'
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: a_xhr_dur
   displayName: ""
   pass:
@@ -46,7 +38,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: a1_error
+- sli: kua{num}_error
   displayName: ""
   pass:
   - criteria:
@@ -54,7 +46,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: kua1_apdex
+- sli: kua{num}_apdex
   displayName: ""
   pass:
   - criteria:
@@ -62,7 +54,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: kua1_duration
+- sli: kua{num}_duration
   displayName: ""
   pass:
   - criteria:
@@ -70,7 +62,15 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: kua1_count
+- sli: kua{num}_count
+  displayName: ""
+  pass:
+  - criteria:
+    - '{cond}'
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: a_load_dur
   displayName: ""
   pass:
   - criteria:
