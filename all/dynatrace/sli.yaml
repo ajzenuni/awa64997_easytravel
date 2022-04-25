@@ -1,3 +1,11 @@
 spec_version: 0.1.4
 indicators:
-  error_count_avg: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.countOfErrors:splitBy("dt.entity.application"):avg:names
+  a_apdex: ""
+  a_count: ""
+  a_error: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.countOfErrors:splitBy("dt.entity.application"):value:names
+  a_load_dur: ""
+  a_xhr_dur: ""
+  a1_error: ""
+  kua1_apdex: ""
+  kua1_count: ""
+  kua1_duration: ""
