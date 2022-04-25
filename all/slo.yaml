@@ -6,107 +6,11 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
-- sli: rt_p50
+- sli: error_count_avg
   displayName: ""
   pass:
   - criteria:
-    - <=1661.511
-  warning: []
-  weight: 2
-  key_sli: false
-- sli: rt_p90
-  displayName: ""
-  pass:
-  - criteria:
-    - <=8687.007
-  warning: []
-  weight: 2
-  key_sli: false
-- sli: fr_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=0.020
-  warning: []
-  weight: 2
-  key_sli: false
-- sli: rc_sum
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=2364.933'
-  warning: []
-  weight: 2
-  key_sli: false
-- sli: h_disk_max
-  displayName: ""
-  pass:
-  - criteria:
-    - <=0.026
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: h_mem_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=39.050
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: h_cpu_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=13.231
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: p_cpu_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=0.484
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: p_avail_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=71.566'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: p_mem_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=1.809
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: a_apdex
-  displayName: ""
-  pass:
-  - criteria:
-    - '>=0.926'
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: a_xhr_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=125.222
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: a_load_avg
-  displayName: ""
-  pass:
-  - criteria:
-    - <=752.914
+    - <=200
   warning: []
   weight: 1
   key_sli: false
