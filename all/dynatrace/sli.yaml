@@ -1,18 +1,4 @@
 spec_version: 0.1.4
 indicators:
-  a_apdex: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.apdex.userType:splitBy("dt.entity.application"):avg:names
-  kua_apdex_loading_of_page__: entitySelector=type(APPLICATION_METHOD),entityName("loading
-    of page /"),mzId(-8896408064244866623),entityId(APPLICATION_METHOD-D354DBEA98E1A7F8)&metricSelector=builtin:apps.web.action.apdex:splitBy("dt.entity.application_method"):avg:names:filter(eq(dt.entity.application_method,loading
-    of page /))
-  kua_apdex_loading_of_page__logout.jsf: entitySelector=type(APPLICATION_METHOD),entityName("loading
-    of page /"),mzId(-8896408064244866623),entityId(APPLICATION_METHOD-B05DD328153E9687)&metricSelector=builtin:apps.web.action.apdex:splitBy("dt.entity.application_method"):avg:names:filter(eq(dt.entity.application_method,loading
-    of page /logout.jsf))
-  kua_apdex_loading_of_page__orange-booking-finish.jsf: entitySelector=type(APPLICATION_METHOD),entityName("loading
-    of page /"),mzId(-8896408064244866623),entityId(APPLICATION_METHOD-39D78869C8A2D746)&metricSelector=builtin:apps.web.action.apdex:splitBy("dt.entity.application_method"):avg:names:filter(eq(dt.entity.application_method,loading
-    of page /orange-booking-finish.jsf))
-  kua_apdex_loading_of_page__orange-booking-payment.jsf: entitySelector=type(APPLICATION_METHOD),entityName("loading
-    of page /"),mzId(-8896408064244866623),entityId(APPLICATION_METHOD-95553511D2484C5F)&metricSelector=builtin:apps.web.action.apdex:splitBy("dt.entity.application_method"):avg:names:filter(eq(dt.entity.application_method,loading
-    of page /orange-booking-payment.jsf))
-  kua_apdex_loading_of_page__orange-booking-review.jsf: entitySelector=type(APPLICATION_METHOD),entityName("loading
-    of page /"),mzId(-8896408064244866623),entityId(APPLICATION_METHOD-FC050CAD44E30649)&metricSelector=builtin:apps.web.action.apdex:splitBy("dt.entity.application_method"):avg:names:filter(eq(dt.entity.application_method,loading
-    of page /orange-booking-review.jsf))
+  a_apdex: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.apdex.userType:splitBy():avg:names
+  kua_apdex: entitySelector=type(APPLICATION_METHOD),entityName("loading of page /"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.action.apdex:splitBy():avg:names
