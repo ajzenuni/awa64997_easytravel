@@ -1,15 +1,3 @@
 spec_version: 0.1.4
 indicators:
-  a_apdex: entitySelector=type(APPLICATION),mzId(-3844441029051841282)&metricSelector=builtin:apps.web.apdex.userType:splitBy():avg:names
-  a_load_avg: entitySelector=type(APPLICATION),mzId(-3844441029051841282)&metricSelector=builtin:apps.web.actionDuration.load.browser:splitBy():avg:names
-  a_xhr_avg: entitySelector=type(APPLICATION),mzId(-3844441029051841282)&metricSelector=builtin:apps.web.actionDuration.xhr.browser:splitBy():avg:names
-  fr_avg: entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.errors.server.rate:splitBy():avg:names
-  h_cpu_avg: entitySelector=type(HOST),mzId(-3844441029051841282)&metricSelector=builtin:host.cpu.usage:splitBy():avg:names
-  h_disk_max: entitySelector=type(HOST),mzId(-3844441029051841282)&metricSelector=builtin:host.disk.queueLength:splitBy():max:names
-  h_mem_avg: entitySelector=type(HOST),mzId(-3844441029051841282)&metricSelector=builtin:host.mem.usage:splitBy():avg:names
-  p_avail_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:pgi.availability:splitBy():avg:names
-  p_cpu_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.cpu.usage:splitBy():avg:names
-  p_mem_avg: entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-3844441029051841282)&metricSelector=builtin:tech.generic.mem.usage:splitBy():avg:names
-  rc_sum: entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.requestCount.total:splitBy():avg:names
-  rt_p50: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.response.time:splitBy():median:names
-  rt_p90: MV2;MicroSecond;entitySelector=type(SERVICE),mzId(-3844441029051841282)&metricSelector=builtin:service.response.time:splitBy():percentile(90):names
+  error_count_avg: entitySelector=type(APPLICATION),entityName("My web application"),mzId(-8896408064244866623)&metricSelector=builtin:apps.web.countOfErrors:splitBy("dt.entity.application"):avg:names
